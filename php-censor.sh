@@ -6,3 +6,5 @@ git clone https://github.com/php-censor/php-censor.git ~/php-censor
 cd ~/php-censor
 git checkout pre-release-2.0
 composer u
+sudo service nginx restart
+
