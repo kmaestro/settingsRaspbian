@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 curl -sSL https://get.docker.com | sh
 sudo usermod -aG docker pi
 sudo apt-get install -y libffi-dev libssl-dev
